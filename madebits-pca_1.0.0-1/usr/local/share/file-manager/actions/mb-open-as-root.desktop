@@ -4,16 +4,20 @@ Profiles=profile-zero;profile-1;profile-2;
 Name[en_US]=Open As Root
 Name[en]=Open As Root
 Name[C]=Open As Root
+Name[it]=Apri come Root
 Tooltip[en_US]=Open As Root
 Tooltip[en]=Open As Root
 Tooltip[C]=Open As Root
+Tooltip[it]=Apri come Root
 ToolbarLabel[en_US]=Open As Root
 ToolbarLabel[en]=Open As Root
 ToolbarLabel[C]=Open As Root
+ToolbarLabel[it]=Apri come Root
 
 Icon[en_US]=stop
 Icon[en]=stop
 Icon[C]=stop
+Icon[it]=stop
 
 [X-Action-Profile profile-zero]
 MimeTypes=inode/directory;
@@ -21,6 +25,7 @@ Exec=/usr/bin/gksu /usr/bin/pcmanfm %u
 Name[en_US]=Open Folder As Root
 Name[en]=Open Folder As Root
 Name[C]=Open Folder As Root
+Name[it]=Apri Cartella come Root
 
 [X-Action-Profile profile-1]
 MimeTypes=all/allfiles;!text/plain;
@@ -28,6 +33,7 @@ Exec=/usr/bin/gksu /usr/bin/pcmanfm %d
 Name[en_US]=Open Folder As Root
 Name[en]=Open Folder As Root
 Name[C]=Open Folder As Root
+Name[it]=Apri Cartella come Root
 
 [X-Action-Profile profile-2]
 MimeTypes=text/plain;
@@ -35,3 +41,4 @@ Exec=/usr/bin/gksu /usr/bin/leafpad %f
 Name[en_US]=Edit File As Root
 Name[en]=Edit File As Root
 Name[C]=Edit File As Root
+Name[it]=AEdita File come Root
